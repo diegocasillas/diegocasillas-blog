@@ -4,7 +4,7 @@
     <body>
         @include('partials.nav')
 
-        @include('partials.header')
+        @yield('header')
 
         <main class="container mt-5 mb-5">
             @yield('main')
