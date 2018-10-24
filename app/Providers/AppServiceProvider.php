@@ -15,6 +15,7 @@ class AppServiceProvider extends ServiceProvider
     public function boot()
     {
         Blade::component('posts.components.post', 'post');
+        Blade::component('posts.components.postList', 'postList');
         Blade::component('posts.components.author', 'author');
     }
 
