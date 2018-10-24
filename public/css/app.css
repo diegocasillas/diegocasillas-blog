@@ -10810,9 +10810,9 @@ html {
   font-family: "Unica One";
 }
 
-.border-3 {
+.border-5 {
   border-style: solid;
-  border-width: 3px;
+  border-width: 5px;
 }
 
 .soft-shadow {
@@ -10839,5 +10839,10 @@ html {
 
 .post-body {
   font-size: 1.2rem;
+}
+
+.author-picture {
+  border-radius: 9999px;
+  border: 5px solid #00A376;
 }
 
