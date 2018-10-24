@@ -1,6 +1,6 @@
 
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Jura|Unica+One');
 
 // Variables
 @import 'variables';
@@ -8,7 +8,55 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
-.navbar-laravel {
-  background-color: #fff;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+.jura {
+  font-family: $jura;
+}
+
+.unica-one {
+  font-family: $unica-one;
+}
+
+.border-5 {
+  border-style: solid;
+  border-width: 5px;
+}
+
+.soft-shadow {
+  box-shadow: 0px 0px 1px $soft;
+}
+
+.navbar a {
+  color: $main;
+}
+
+@include media-breakpoint-up(lg) {
+  .nav-item:first-child .nav-link:before {
+    content: "";
+  }
+
+  .nav-item .nav-link:before {
+    content: "|";
+    font-size: 20px;
+    color: $soft;
+    margin-right: 20px;
+  }
+}
+
+.post-body {
+  font-size: 1.2rem;
+}
+
+.author-picture {
+  border-radius: 9999px;
+  border: 5px solid #00A376;
 }
