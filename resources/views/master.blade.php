@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
     @include('partials.head')
+
     <body>
         @include('partials.nav')
 
-        @yield('header')
+        <div class="container">
+            @yield('header')
 
-        <main class="container mt-5 mb-5">
-            @yield('main')
-        </main>
+            <main class="mt-5 mb-5">
+                @yield('main')
+            </main>
+        </div>
 
         @include('partials.footer')
 

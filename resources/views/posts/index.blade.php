@@ -10,9 +10,10 @@
             @forelse ($posts as $post)
                 @post([
                     'title' => $post->title,
+                    'slug' => $post->slug,
                     'category' => $post->category,
                     'body' => $post->body,
-                    'url' => $post->url
+                    'thumbnail' => $post->thumbnail,
                 ])
                 @endpost
 
