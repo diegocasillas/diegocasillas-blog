@@ -1,4 +1,4 @@
-<nav class="sticky-top navbar navbar-expand-lg bg-light border-bottom soft-shadow">
+<nav class="unica-one text-uppercase sticky-top navbar navbar-expand-lg bg-light border-bottom soft-shadow">
     <a class="navbar-brand font-weight-bold ml-2" href="/">Diego Casillas</a>
 
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav" aria-controls="navbar-nav " aria-expanded="false" aria-label="Toggle navigation">
